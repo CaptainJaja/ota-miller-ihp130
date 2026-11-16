@@ -1,0 +1,21 @@
+# Résultats et fichiers temporaires de simulation
+sim/*.raw
+sim/*.txt
+sim/*.csv
+sim/*.log
+sim/*.spice
+pex/*.spice
+pex/*.ext
+pex/*.nodes
+pex/*.sim
+lvs/*.out
+lvs/*.log
+
+# Sauvegardes automatiques EDA
+*.bak
+*~
+*.swp
+.xschem_autosave*
+
+# Configuration locale de l'agent IA
+.agent/
